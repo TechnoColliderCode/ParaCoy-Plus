@@ -1,0 +1,106 @@
+=========================================================
+      PAREKOY MUSIC BOT - COMPLETE COMMAND REFERENCE
+=========================================================
+
+For a fun listening experience, follow the command guides below. All commands are just typed in the chat (no slash needed).
+
+---------------------------------------------------------
+1. PLAYING A SONG (STREAMING)
+---------------------------------------------------------
+
+p, play <search term or URL>
+   - Search and play from YouTube.
+   - Example: p Eraserheads Ang Huling El Bimbo
+   - Benefit: Automatic skipping if there's an error or video not available.
+
+u <URL>
+   - Play from Facebook, TikTok, Instagram, or Twitter/X.
+   - Example: u https://fb.watch/reels/12345/
+   - Benefit: You can listen to trending reels directly on TeamTalk.
+
+il, bilibili <search or URL>
+   - Play from Bilibili.tv.
+   - Example: il anime ost english
+   - Benefit: Best for anime and dubbed series content.
+
+ra, amradio <search>
+   - Search AM stations in the Philippines (e.g., DZMM, DZRH).
+   - Example: ra 630 am
+
+rf, fmradio <search>
+   - Search FM stations (e.g., Love Radio, Moro FM).
+
+n (Next) / b (Back)
+   - Use this while searching to switch to another result (Channel Surfing).
+
+---------------------------------------------------------
+2. WATTPAD DOWNLOADER (PRO VERSION)
+---------------------------------------------------------
+
+wp
+   - Wattpad story downloader. 
+   - Step 1: Type 'wp'.
+   - Step 2: Paste the story link.
+   - Step 3: Choose 'y' to include pictures, 'n' for text only.
+   - Benefit: Turns it into a professional EPUB book with cover and images.
+
+---------------------------------------------------------
+3. PLAYBACK CONTROLS
+---------------------------------------------------------
+
+s (Stop) - Stop the music.
+ss (Stop All) - Stop everything and clear the queue.
+x (Pause/Resume) - Pause or resume the song.
+v <0-100> - Increase or decrease the volume (Example: v 80).
++ / - <seconds> - Fast forward or Rewind (Example: +30 or -10).
+j <seconds> - Jump to a specific time (Example: j 120 for 2:00 mins).
+e <rate> - Speed up/down (Example: e 1.5 for faster).
+m <2, 3, 4> - Playback Mode: 2=Once, 3=Repeat One, 4=Repeat All.
+sh (Shuffle) - Shuffle the songs in the queue.
+
+---------------------------------------------------------
+4. QUEUE & FAVORITES
+---------------------------------------------------------
+
+q <search> - Add to queue without stopping the current song.
+pq [index] - Play from the current queue or specified index.
+fe (Fav Add) - Save the current song to your Favorites list.
+fl (Fav List) - Show the list of your favorite songs.
+pf <number> - Play a song from the Favorites list (Example: pf 1).
+
+---------------------------------------------------------
+5. FILE SHARING (DOWNLOADS)
+---------------------------------------------------------
+
+dl (Download) - Download the track as MP3 and upload it to the channel.
+dlv (Video) - Download the full video (MP4) and upload it to the channel.
+* Note: The server has an automatic cleanup of files after 5-15 mins.
+
+---------------------------------------------------------
+6. SYSTEM & MAINTENANCE
+---------------------------------------------------------
+
+rs (Remote Restart) - Restart the bot connection if it lags.
+resette - Reset the TeamTalk SDK license when it becomes "Trial Expired".
+qq (Quit) - Remotely kill the bot application.
+a (About) / h (Help) - Info and list of commands.
+
+---------------------------------------------------------
+7. ADMINISTRATIVE CONTROL
+---------------------------------------------------------
+
+cn <nick>        - Modify the bot's display nickname.
+sn               - Persist the current nickname to server configuration.
+cg command. to change bot's gender. m for man. f for woman. n for newtral.
+adminadd <user>  - Grant administrative privileges to a specific user.
+                   Example: adminadd Owen
+admindel <user>  - Revoke administrative privileges from a specific user.
+                   Example: admindel Owen
+adminlist        - Display a comprehensive list of authorized administrators.
+lock             - Toggle bot restriction (Restricts access to admins only).
+status <message> - Update the bot's broadcast status message.
+
+=========================================================
+Developer: Blind Techno | Website: blindtechno.com
+Official Release v2.3 - 2026
+=========================================================
